@@ -14,8 +14,8 @@ public class SumSquare
 			
 			//sum = multiple * i;
 			
-			System.out.println("Cumulation result: " + sum + "   :   " 
-					+ multiple + "   :   " + multiple);
+			System.out.printf("Cumulation result:%7d%7s%-10d%7s%-10d\n" , sum , "   :   " 
+					, multiple , "   :   " , multiple);
 			
 			result = sum +  result;
 			
