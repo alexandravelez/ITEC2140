@@ -8,7 +8,7 @@ public class SumSquare
 		int i = 2;
 		int result = 0;
 		
-		while (i <= 11)
+		while (i <= 12)
 		{
 			 sum = (int) Math.pow(multiple, 2) + result; 
 			
@@ -17,7 +17,7 @@ public class SumSquare
 			System.out.printf("Cumulation result:%7d%7s%-10d%7s%-10d\n" , sum , "   :   " 
 					, multiple , "   :   " , multiple);
 			
-			result = sum +  result;
+			result = sum;
 			
 			multiple = multiple + 3;
 			
