@@ -5,7 +5,7 @@ public class ForeverStamp
 	{ 
 		//Prompts the user to enter the weight in ounces
 		Scanner input = new Scanner (System.in);
-		System.out.print("Enter weights in ounce for letters to mail out. When done entering, please enter -1 to finish: ");
+		System.out.print("Enter weights in ounce for letters to mail out.\n When done entering, please enter -1 to finish: ");
 		double ounce = input.nextDouble();
 
 		//Checks to see if user is entering -1, then proceeds to see if forever stamp can be used.
@@ -15,7 +15,7 @@ public class ForeverStamp
 			if (ounce < 1) 
 			{
 				System.out.println("You can use forever stamp.");
-				System.out.print("Enter weights in ounce for letters to mail out. When done entering, please enter -1 to finish: ");
+				System.out.print("Enter weights in ounce for letters to mail out. \nWhen done entering, please enter -1 to finish: ");
 				ounce = input.nextDouble();
 			}
 			
@@ -23,7 +23,7 @@ public class ForeverStamp
 			else 
 			{
 				System.out.println("You need additional postage than a forever stamp");
-				System.out.print("Enter weights in ounce for letters to mail out. When done entering, please enter -1 to finish: ");
+				System.out.print("Enter weights in ounce for letters to mail out.\n When done entering, please enter -1 to finish: ");
 				ounce = input.nextDouble();
 			}
 		}
